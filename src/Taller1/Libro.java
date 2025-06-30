@@ -17,5 +17,22 @@ public class Libro {
         this.autor = autor;
         this.nrmPaginas = nrmPaginas;
     }
+    //GETTERS Y SETTERS
+    public String getTitulo() {
+        return titulo;
+    }
+    public void setTitulo(String titulo) {
+        this.titulo = titulo;
+    }
+    public String getAutor() {
+        return autor;
+    }
+    public void setAutor(String autor) {
+        this.autor = autor;
+    }
+    public int getNrmPaginas() {
+        return nrmPaginas;
+    }
+
 
 }
