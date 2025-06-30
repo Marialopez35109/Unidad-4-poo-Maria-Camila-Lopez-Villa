@@ -37,4 +37,5 @@ public class CuentaBancaria {
         return tipocuenta;
     }
 
+    @Override
 }
