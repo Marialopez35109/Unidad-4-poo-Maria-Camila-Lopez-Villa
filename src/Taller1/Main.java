@@ -12,28 +12,22 @@ public class Main {
 
         // Cuentas Bancarias
         CuentaBancaria cuenta0 = new CuentaBancaria();
-        CuentaBancaria cuenta1 = new CuentaBancaria();
+        CuentaBancaria cuenta1 = new CuentaBancaria("123456789", 1500.0, "Ahorros");
 
         // Estudiantes
-        Estudiante estudiante0 = new Estudiante();
+        System.out.println("Estudiantes\n");
         System.out.println("Ingrese el nombre del estudiante:");
         String nombre = teclado.nextLine();
         Estudiante estudiante1 = new Estudiante( nombre, 20);
 
 
-        System.out.println(estudiante0);
         System.out.println(estudiante1);
-        System.out.println(libro0);
-        System.out.println(libro1);
+        System.out.println("\nCuentas Bancarias");
         System.out.println(cuenta0);
         System.out.println(cuenta1);
+        System.out.println("\nLibros");
         libro0.mostrarDetallesLibro();
         libro1.mostrarDetallesLibro();
-
-
-
-
-
 
     }
 }

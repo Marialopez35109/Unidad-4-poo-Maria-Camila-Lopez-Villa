@@ -38,4 +38,10 @@ public class CuentaBancaria {
     }
 
     @Override
+    public String toString(){
+        return "Numero de Cuenta: " + getNrmCuenta() +
+               ", Saldo: " + getSaldo() +
+               ", Tipo de Cuenta: " + getTipocuenta();
+
+    }
 }
