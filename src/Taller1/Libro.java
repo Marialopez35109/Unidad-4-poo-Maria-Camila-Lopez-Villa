@@ -34,5 +34,13 @@ public class Libro {
         return nrmPaginas;
     }
 
+    //METODOS
+
+    public void mostrarDetallesLibro(){
+        System.out.println("Titulo: " + getTitulo());
+        System.out.println("Autor: " + getAutor());
+        System.out.println("NRM paginas: " + getNrmPaginas());
+
+    }
 
 }
