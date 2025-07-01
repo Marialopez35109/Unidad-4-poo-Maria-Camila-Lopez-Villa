@@ -1,6 +1,7 @@
 package Taller2;
 
 public class Producto {
+
     private String nombre;
     private int precio;
 
@@ -28,5 +29,9 @@ public class Producto {
     public void mostrarDetallesProducto() {
         System.out.println("Nombre del Producto: " + getNombre());
         System.out.println("Precio del Producto: " + getPrecio());
+    }
+    public static void main(String[] args) {
+        Producto producto = new Producto("Laptop", 1500);
+        producto.mostrarDetallesProducto();
     }
 }

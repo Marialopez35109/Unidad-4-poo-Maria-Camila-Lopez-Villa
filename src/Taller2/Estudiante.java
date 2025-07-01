@@ -31,4 +31,8 @@ public class Estudiante {
         System.out.println("Nombre del Estudiante: " + getNombre());
         System.out.println("Edad del Estudiante: " + getEdad());
     }
+    public static void main(String[] args) {
+        Estudiante estudiante = new Estudiante("Juan", 20);
+        estudiante.mostrarDetallesEstudiante();
+    }
 }
