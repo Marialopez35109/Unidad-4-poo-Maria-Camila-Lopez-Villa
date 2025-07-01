@@ -34,8 +34,4 @@ public class Coche {
     public static void mostrarCochesCreados(){
         System.out.println(Coche.contadorCoches);
     }
-
-    public static void mostrarMarca(){
-        System.out.println("La marca del coches es: " + marca);
-    }
 }
