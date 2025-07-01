@@ -31,4 +31,7 @@ public class Estudiante {
         System.out.println("Nombre del Estudiante: " + getNombre());
         System.out.println("Edad del Estudiante: " + getEdad());
     }
+    public static void pruebaTgis(){
+        System.out.println(this);
+    }
 }
