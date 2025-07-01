@@ -30,4 +30,8 @@ public class Coche {
         Coche.contadorCoches = contadorCoches;
     }
 
+    //Metodo para mostrar información
+    public static void mostrarCochesCreados(){
+        System.out.println(Coche.contadorCoches);
+    }
 }
