@@ -5,5 +5,4 @@ public class PruebaProducto {
         Producto producto1=new Producto("Laptop", 1500.00, 10);
         producto1.mostrarInfo();
     }
-
 }
