@@ -10,6 +10,11 @@ public class Coche {
         this.marca = marca;
     }
 
+    //Getters y Setters
+    public String getMarca() {
+        return marca;
+    }
+
     //Metodo
     public void acelerar(double incremento) {
         if (incremento>0){
