@@ -4,5 +4,4 @@ public class Empleado {
     protected String nombre;
     protected double salario;
 
-
 }
