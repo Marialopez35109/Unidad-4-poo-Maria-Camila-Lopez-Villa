@@ -17,7 +17,7 @@ public class Ej3Utilidades {
         int a= 30;
         int b= 90;
         int resultado= a*b;
-        System.out.println("La multiplicación entre " +a + "por " + b + "es: " + resultado);
+        System.out.println("La multiplicación entre " +a + " por " + b + " es: " + resultado);
     }
     public static void division(){
         int a = 100;
