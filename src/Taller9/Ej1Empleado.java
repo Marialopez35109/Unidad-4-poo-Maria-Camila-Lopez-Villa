@@ -1,6 +1,6 @@
 package Taller9;
 
-public class Ej2Empleado extends Ej1Persona{
+public class Ej1Empleado extends Ej1Persona{
     protected String departamento;
 
     @Override
