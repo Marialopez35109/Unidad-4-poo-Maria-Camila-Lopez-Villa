@@ -1,6 +1,6 @@
 package Taller11;
 
-public class Ej1Rectangulo {
+public class Ej1Rectangulo extends Ej1Figura {
     private double base;
     private double altura;
 
@@ -9,6 +9,7 @@ public class Ej1Rectangulo {
         this.altura = altura;
     }
 
+    @Override
     public double calcularArea() {
         return base * altura;
     }
